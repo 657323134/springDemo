@@ -13,6 +13,7 @@ public class Test {
 
     private void test(String name ,String... students) {
         System.out.println(name);
+        System.out.println("spring");
 
 //        for (String student: students
 //             ) {
