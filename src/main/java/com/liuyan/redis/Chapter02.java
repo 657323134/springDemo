@@ -18,7 +18,7 @@ public class Chapter02 {
     public void run()
         throws InterruptedException
     {
-        Jedis conn = new Jedis("localhost");
+        Jedis conn = new Jedis("192.168.200.128");
         conn.select(15);
 
         testLoginCookies(conn);

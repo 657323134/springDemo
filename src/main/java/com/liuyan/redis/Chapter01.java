@@ -15,7 +15,7 @@ public class Chapter01 {
     }
 
     public void run() {
-        Jedis conn = new Jedis("localhost");
+        Jedis conn = new Jedis("192.168.200.128");
         conn.select(15);
 
         String articleId = postArticle(
